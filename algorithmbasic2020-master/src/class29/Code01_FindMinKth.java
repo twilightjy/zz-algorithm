@@ -28,7 +28,7 @@ public class Code01_FindMinKth {
 		}
 		return maxHeap.peek();
 	}
-
+//-------------------------------------------
 	// 改写快排，时间复杂度O(N)
 	// k >= 1
 	public static int minKth2(int[] array, int k) {
@@ -63,7 +63,7 @@ public class Code01_FindMinKth {
 			return process2(arr, range[1] + 1, R, index);
 		}
 	}
-
+//--------------------------------------------
 	public static int[] partition(int[] arr, int L, int R, int pivot) {
 		int less = L - 1;
 		int more = R + 1;
