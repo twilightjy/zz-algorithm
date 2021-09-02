@@ -1,4 +1,4 @@
-package class27;
+package class27KMP;
 
 public class Code03_IsRotation {
 
